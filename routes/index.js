@@ -7,7 +7,7 @@ router.get("/", function (req, res, next) {
 });
 
 router.get("/profil", function (req, res) {
-  res.render("profil");
+  res.render("profil", { nama: "Adhitya Hasan", npm: 2024240088 });
 });
 
 module.exports = router;
